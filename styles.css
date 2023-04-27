@@ -13,6 +13,11 @@ div {
     margin: auto;
 }
 
+.container-text {
+    margin: auto;
+    padding: 6px;
+}
+
 header {
     background: white;
     padding: 10px;
@@ -32,18 +37,18 @@ header {
     margin: 0;
 }
 
-.post-header div:second-child {
+/* .post-header div:second-child {
     display: inline-block;
     width: 80%;
-}
+} */
 
-.post-header div:last-child {
+/* .post-header div:last-child {
     display: inline-block;
     width: 20%;
     padding: 5px;
     text-align: right;
     color: gray;
-}
+} */
 
 .icons {
     display: flex;
@@ -54,8 +59,8 @@ header {
 }
 
 .html-icon {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
 
 .post .likes {
@@ -71,6 +76,17 @@ svg {
 }
 
 .bookmark {
-  justify-content: flex-end;
-  margin-right: 10px;
+  display: inline; 
+  position: relative; 
+  height: 30px; 
+  width: 30px; 
+  left: 68%;
+}
+
+.ellipsis {
+    display: inline; 
+    position: relative; 
+    height: 30px; 
+    width: 30px; 
+    left: 66%;
 }
